@@ -1,0 +1,41 @@
+:root {
+  // 主色
+  --color-primary: #409eff;
+  --color-primary-hover: #409eff;
+
+  // 辅助色
+  --color-success: #67c23a;
+  --color-success-hover: #67c23a;
+  --color-warning: #e6a23c;
+  --color-warning-hover: #e6a23c;
+  --color-danger: #f56c6c;
+  --color-danger-hover: #f56c6c;
+  --color-info: #999;
+  --color-info-hover: #999;
+
+  // 字体色
+  --color-text-primary: #333; // 主要文本颜色
+  --color-text-regular: #666; // 普通文本色
+  --color-text-secondary: #999; // 次要文本色
+  --color-text-placeholder: #c0c4cc;
+  --color-text-disabled: #bbb;
+  --color-text-link: var(--color-primary);
+  --color-text-link-hover: var(--color-primary-hover);
+
+  // 边框色
+  --border-color-base: #dcdfe6;
+  --border-color-light: #e4e7ed; // 浅色边框
+  --border-color-lighter: #ebeef5; // 更浅色边框
+  --border-color-placeholder: #f2f6fc;
+  --border-color-hover: var(--color-text-placeholder);
+  --border-color-disabled: var(--border-color-light);
+
+  // 背景色
+  --background-color-base: #fff;
+
+  // 过度动效
+  --all-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  // 阴影
+  --box-shadow-base: 0 2px 4px rgb(0 0 0 / 12%), 0 0 6px rgb(0 0 0 / 4%);
+}
