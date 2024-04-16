@@ -4,4 +4,3 @@
  */
 
 export * from './app'
-export * from './uni-app'
