@@ -1,0 +1,50 @@
+{
+  "name": "core-web",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint:eslint": "eslint . --fix",
+    "lint:stylelint": "stylelint \"**/*.{css,scss}\" --fix",
+    "prepare": "husky",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@mojie/assets": "workspace:*",
+    "@mojie/components": "workspace:*",
+    "@mojie/directives": "workspace:*",
+    "@mojie/enums": "workspace:*",
+    "@mojie/hooks": "workspace:*",
+    "@mojie/locales": "workspace:*",
+    "@mojie/utils": "workspace:*",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.6.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@config/commitlint": "workspace:*",
+    "@config/eslint": "workspace:*",
+    "@config/stylelint": "workspace:*",
+    "@config/tsconfig": "workspace:*",
+    "@config/unocss": "workspace:*",
+    "@config/vite": "workspace:*",
+    "@iconify/json": "^2.2.199",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "sass": "^1.74.1",
+    "turbo": "^1.13.2",
+    "typescript": "^5.4.4",
+    "unbuild": "^2.0.0",
+    "vue-tsc": "^2.0.12"
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,json,md}": "eslint --fix",
+    "*.{css,scss}": "stylelint --fix"
+  }
+}

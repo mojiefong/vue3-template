@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "stylelint.vscode-stylelint",
+    "gruntfuggly.todo-tree",
+    "syler.sass-indented",
+    "antfu.unocss",
+    "vue.volar"
+  ]
+}

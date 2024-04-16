@@ -1,0 +1,24 @@
+{
+  "name": "@config/unocss",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "postinstall": "unbuild --stub"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.59.0"
+  },
+  "devDependencies": {
+    "@unocss/transformer-directives": "^0.59.0",
+    "unocss": "^0.59.0",
+    "unocss-preset-weapp": "^0.59.1"
+  }
+}

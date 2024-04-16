@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "types": [
+      "unplugin-icons/types/vue",
+      "element-plus/global"
+    ]
+  },
+  "include": [
+    "../../apps/**/*.ts",
+    "../../apps/**/*.tsx",
+    "../../apps/**/*.vue",
+    "../../packages/**/*.ts",
+    "../../packages/**/*.tsx",
+    "../../packages/**/*.vue",
+    "../../types/**/*.ts"
+  ]
+}

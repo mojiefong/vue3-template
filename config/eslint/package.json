@@ -1,0 +1,21 @@
+{
+  "name": "@config/eslint",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "postinstall": "unbuild --stub"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.13.2",
+    "@unocss/eslint-plugin": "^0.59.0",
+    "eslint": "^9.0.0"
+  }
+}
