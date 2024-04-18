@@ -4,6 +4,7 @@ export default antfu({
   unocss: true,
   vue: true,
   typescript: true,
+  ignores: ['out'],
   rules: {
     'no-unused-vars': 'off',
     'camelcase': [2, { properties: 'always' }],
